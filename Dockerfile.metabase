@@ -1,0 +1,11 @@
+# Reusa o .jar oficial do Metabase, mas roda numa base Debian/glibc
+# em vez da Alpine/musl padrão — necessário porque o driver DuckDB
+# é compilado contra glibc e precisa de libstdc++.so.6, ausente no Alpine.
+
+FROM metabase/metabase:latest AS mb
+
+FROM eclipse-temurin:21-jre
+WORKDIR /app
+COPY --from=mb /app/metabase.jar /app/metabase.jar
+EXPOSE 3000
+ENTRYPOINT ["java", "-jar", "/app/metabase.jar"]
