@@ -121,12 +121,3 @@ fuel-lakehouse/
 └── .github/workflows/      # CI
 ```
 
-## Próximos passos
-
-- [ ] Popular `data/raw/` com histórico completo da ANP e validar o schema map
-- [ ] Ampliar `municipio_exceptions.csv` conforme o teste de match rate apontar gaps
-- [ ] Ingerir a fonte de preço de distribuição para habilitar `mart_margem_revenda_distribuicao`
-- [ ] Publicar dashboards no Metabase e capturar prints para `docs/`
-- [ ] (Opcional) Expor os marts gold via API FastAPI
-dnasbndbfdnfbdn 
-nnsdmfsnm
