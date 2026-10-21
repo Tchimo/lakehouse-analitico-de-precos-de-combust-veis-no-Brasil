@@ -4,6 +4,8 @@ Plataforma analítica reprodutível para ingestão, tratamento, validação e
 disponibilização de dados públicos da ANP sobre preços de combustíveis no
 Brasil, enriquecida com a referência geográfica oficial do IBGE.
 
+## Dashboard
+
 ## Arquitetura
 
 Medallion architecture (bronze → silver → gold), com camadas imutáveis:
