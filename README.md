@@ -5,6 +5,7 @@ disponibilização de dados públicos da ANP sobre preços de combustíveis no
 Brasil, enriquecida com a referência geográfica oficial do IBGE.
 
 ## Dashboard
+![Dashboard no Metabase](docs/img/dashboard-metabase.png)
 
 ## Arquitetura
 
