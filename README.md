@@ -125,3 +125,4 @@ fuel-lakehouse/
 - [ ] Ingerir a fonte de preço de distribuição para habilitar `mart_margem_revenda_distribuicao`
 - [ ] Publicar dashboards no Metabase e capturar prints para `docs/`
 - [ ] (Opcional) Expor os marts gold via API FastAPI
+dnasbndbfdnfbdn 
