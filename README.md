@@ -126,3 +126,4 @@ fuel-lakehouse/
 - [ ] Publicar dashboards no Metabase e capturar prints para `docs/`
 - [ ] (Opcional) Expor os marts gold via API FastAPI
 dnasbndbfdnfbdn 
+nnsdmfsnm
